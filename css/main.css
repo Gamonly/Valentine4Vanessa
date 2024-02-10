@@ -1554,3 +1554,22 @@ body {
   -webkit-animation-play-state: paused !important;
   animation-play-state: paused !important;
 } /*# sourceMappingURL=main.css.map */
+
+/* Mengatur kontrol audio di bagian paling atas */
+audio {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Menyesuaikan ukuran kotak putih */
+.box {
+  width: 200px; /* Lebar kotak putih */
+  height: 50px; /* Tinggi kotak putih */
+  background-color: rgba(255, 255, 255, 0.5); /* Warna kotak putih dengan transparansi */
+  margin: auto; /* Menengahkan kotak putih */
+  margin-top: 100px; /* Menambahkan jarak atas */
+  padding: 10px; /* Padding kotak putih */
+  border-radius: 5px; /* Border radius kotak putih */
+}
